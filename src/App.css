@@ -1,0 +1,39 @@
+.btn {
+  padding: 16px;
+  font-size: 1.5rem;
+  border: 2px solid #f2f2f2; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fff;
+  color: #333; /* Dark text color */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #f2f2f2; /* Light gray background on hover */
+}
+
+.btn-orange {
+  background-color: #ff9f0a; /* Orange background for operator buttons */
+  color: #fff; /* White text color */
+}
+
+.btn-gray {
+  background-color: #e0e0e0; /* Gray background for clear button */
+}
+
+/* Adjustments for mobile version */
+@media (max-width: 767px) {
+  .btn {
+    padding: 20px;
+    font-size: 2rem; /* Increase font size for better visibility on mobile */
+  }
+}
+
+/* Adjustments for laptop version */
+@media (min-width: 768px) {
+  .btn {
+    padding: 24px 32px;
+    font-size: 2.5rem; /* Increase font size for better visibility on laptop */
+  }
+}
